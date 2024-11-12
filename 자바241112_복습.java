@@ -30,6 +30,22 @@ public class 자바241112_복습 {
 		System.out.print("이름을 입력해주세요 => ");
 		String n = scan.next();
 		System.out.println("입력하신 이름은 : " + n + " 입니다.");
+		
+		System.out.print("MBTI를 입력해주세요 => ");
+		String m = scan.next();
+		System.out.println("MBTI는 " + m + "입니다.");
+		
+		System.out.print("나이를 입력해주세요 => ");
+		int a = scan.nextInt();
+		System.out.println("나이는 : " + a + "입니다.");
+		
+		System.out.print("취미를 입력해주세요 => ");
+		String h = scan.next();
+		System.out.println("취미는 : " + h + "입니다.");
+		
+		System.out.print("키를 입력해주세요 => ");
+		int height = scan.nextInt();
+		System.out.println("키는 " + height + "입니다.");
 	}
 
 }
